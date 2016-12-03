@@ -1,0 +1,114 @@
+*{
+	font-size: 11px;
+}
+a{
+	color: #666;
+}
+.m-0{
+	margin: 0px;
+}
+.pullright{
+	float: right;;
+}
+.pullleft{
+	float: left;;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.p-0{
+	padding: 0px;
+}
+.pl-0{
+    padding-left: 0px;
+}
+.nav-pills>li>a{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.avatarImg{
+    display: inline-block;;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.avatarImg img{
+    max-height: 200px;
+    max-width: 200px;
+}
+.nav-pills>li>a:hover,.nav-pills>li:hover,.nav-pills>li:active,.nav>li>a:focus{
+	background: none;
+}
+.nav-pills>li>a.active,.TopNavigation a.active{
+	color: #337ab7;
+}
+.TopNavigation{
+	float: right;
+	margin-top: 20px;
+}
+.TopNavigation li{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+li.ShoppingBag{	
+    border: 1px solid #8b8b8b;
+    display: inline-block;    
+    background-size: auto 100%;
+    background-image: url('../images/icon-shopping-bag.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding:5px 25px 5px 5px;
+}
+form.SearchForm{
+	display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+.typeSearch{
+    position: absolute;
+    width: 84%;
+    background: #fff;
+    z-index: 1;
+    left: 13px;
+}
+.detailsimg img{
+    max-width: 100%;
+    padding-right: 20px;
+}
+.pagination li.active a{
+    pointer-events: none;
+}
+input[type="search"].headerSearchText{
+	background-color: #fff;
+    border: 1px solid #8b8b8b;
+    color: #000;
+    font-family: "Helvetica Neue",Arial,"Liberation Sans",FreeSans,sans-serif;
+    font-size: 13px;
+    text-align: left;
+    padding-top: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0;
+    width: 84%;
+    max-width: 100%;
+    height: 28px;
+}
+input[type="submit"].icon-search {
+    background-color: #8b8b8b;
+    background-size: auto 100%;
+    background-image: url('../images/icon-search.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    color: #fff!important;
+    height: 28px;
+    padding-right: 28px;
+    border: 0px;
+    text-transform: uppercase;
+}
+footer.copyright{
+	display: inline-block;;
+	text-align: center;
+	width: 100%;
+	padding: 10px 0px;
+}
